@@ -1,5 +1,5 @@
-#p1 {background-color: #ff0000;}                /* red in HEX format */
-#p2 {background-color: hsl(120, 100%, 50%);}    /* green in HSL format */
+#p1 {background-color: #ff0000;} /* red in HEX format */
+#p2 {background-color: hsl(120, 100%, 50%);} /* green in HSL format */
 #p3 {background-color: rgba(0, 4, 255, 0.733);} /* blue with alpha channel in RGBA format */
 const canvas = document.querySelector('canvas');
 const context = canvas.getContext('2d');
@@ -9,9 +9,9 @@ context.// intellisens
 
 //line actions
 {
-    "name": "John",
-    "age": 31,
-    "city": "New York"
+"name": "John",
+"age": 31,
+"city": "New York"
 }
 
 //rename refactoring
@@ -19,13 +19,22 @@ context.// intellisens
 new Book("War of the Worlds", "H G Wells");
 new Book("The Martian", "Andy Weir");
 
+
 /**
- * Represents a book.
- *
- * @param {string} title Title of the book
- * @param {string} author Who wrote the book
- */
+* Represents a book.
+*
+* @param {string} title Title of the book
+* @param {string} author Who wrote the book
+*/
 function Book(title, author) {
-    this.title = title;
-    this.author = author;
+this.title = title;
+this.author = author;
+}
+
+//formatting
+const cars = ["🚗", "🚙", "🚕"];
+
+for (const car of cars){
+// Drive the car
+console.log(`This is the car ${car}`);
 }
